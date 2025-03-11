@@ -12,43 +12,50 @@ common_config = {
 }
 
 PN17 = Metadata(
-    label= "Ever had back pain",
+    variable_basename = "PN17",
+    label = "Ever had back pain",
     field_values = {-99: "Missing", 0: "No", 1: "Yes"},
     **common_config
 )
 
 PN25 = Metadata(
-    label= "Sought professional advice/treatment",
+    variable_basename = "PN25",
+    label = "Sought professional advice/treatment",
     field_values = {-88: "N/A", -99: "Missing", 0: "No", 1: "Yes"},
     **common_config
 )
 
 PN34 = Metadata(
-    label= "Took medication to relieve pain",
+    variable_basename = "PN34",
+    label = "Took medication to relieve pain",
     field_values = {-88: "N/A", -99: "Missing", 0: "No", 1: "Yes"},
     **common_config
 )
 
 PN35 = Metadata(
-    label= "Missed work due to pain",
+    variable_basename = "PN35",
+    label = "Missed work due to pain",
     field_values = {-88: "N/A", -99: "Missing", 0: "No", 1: "Yes"},
     **common_config
 )
 
 PN36 = Metadata(
-    label= "Pain interfered with normal activities",
+    variable_basename = "PN36",
+    label = "Pain interfered with normal activities",
     field_values = {-88: "N/A", -99: "Missing", 0: "No", 1: "Yes"},
     **common_config
 )
 
 PN9 = Metadata(
-    label= "Ever had neck/shoulder pain",
+    variable_basename = "PN9",
+    label = "Ever had neck/shoulder pain",
     field_values = {-99: "Missing", 0: "No", 1: "Yes"},
     **common_config
 )
 
 PN38 = Metadata(
-    label= "Ever had low back pain",
+    variable_basename = "PN38",
+    label = "Ever had low back pain",
     field_values = {-99: "Missing", 0: "No", 1: "Yes"},
     **common_config
 )
@@ -62,3 +69,5 @@ METADATA = {
     "PN9": PN9, 
     "PN38": PN38
 }
+
+M = [PN17, PN25, PN34, PN35, PN36, PN9, PN38]
