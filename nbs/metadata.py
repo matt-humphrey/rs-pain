@@ -8,7 +8,7 @@ common_config = {
     "field_type": "Numeric",
     "field_width": 3,
     "decimals": 0,
-    "variable_type": "Nominal"
+    "variable_type": "nominal"
 }
 
 PN17 = Metadata(
@@ -60,14 +60,4 @@ PN38 = Metadata(
     **common_config
 )
 
-METADATA = {
-    "PN17": PN17, 
-    "PN25": PN25, 
-    "PN34": PN34, 
-    "PN35": PN35, 
-    "PN36": PN36, 
-    "PN9": PN9, 
-    "PN38": PN38
-}
-
-M = [PN17, PN25, PN34, PN35, PN36, PN9, PN38]
+METADATA = [PN17, PN25, PN34, PN35, PN36, PN9, PN38]
